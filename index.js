@@ -11,3 +11,6 @@ function fuzzyMatch(drivers, stringInput)
     return n.substring(0, stringInput.length ).toLowerCase() === stringInput.toLowerCase()
   })
 }
+}
+
+function matchName
