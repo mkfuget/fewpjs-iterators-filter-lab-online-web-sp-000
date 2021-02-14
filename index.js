@@ -11,6 +11,10 @@ function fuzzyMatch(drivers, stringInput)
     return n.substring(0, stringInput.length ).toLowerCase() === stringInput.toLowerCase()
   })
 }
-}
 
-function matchName
+function matchName(drivers, stringInput)
+{
+  return drivers.filter(n => {
+    return n.name.toLowerCase() === stringInput.toLowerCase()
+  })
+}
